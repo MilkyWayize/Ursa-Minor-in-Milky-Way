@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>小熊玩偶的奇幻世界</title>
+    Ursa Minor in Milky Way
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
