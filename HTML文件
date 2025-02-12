@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>小熊玩偶的奇幻世界</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav>
+        <ul>
+            <li><a href="#home">主页</a></li>
+            <li><a href="#story">小熊日记</a></li>
+            <li><a href="#game">互动游戏</a></li>
+        </ul>
+    </nav>
+
+    <!-- 主页 -->
+    <section id="home" class="page active">
+        <h1>欢迎来到小熊的森林🌲</h1>
+        <div class="photo-wall">
+            <img src="bear1.jpg" alt="小熊在树下">
+            <img src="bear2.jpg" alt="小熊抱蜂蜜">
+            <img src="bear3.jpg" alt="小熊和朋友">
+        </div>
+    </section>
+
+    <!-- 故事页 -->
+    <section id="story" class="page">
+        <h2>小熊的冒险日记📖</h2>
+        <div class="diary">
+            <article>
+                <h3>第一天：遇见蜜蜂朋友</h3>
+                <p>今天在橡树旁发现了一个巨大的蜂巢...</p>
+            </article>
+            <article>
+                <h3>第五天：彩虹桥的秘密</h3>
+                <p>跟着蝴蝶穿过蘑菇圈，竟然看到了...</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- 游戏页 -->
+    <section id="game" class="page">
+        <h2>帮小熊收集蜂蜜🍯</h2>
+        <div id="honey-game">
+            <div id="honey-counter">蜂蜜：0/10</div>
+            <button onclick="collectHoney()">点击收集</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
