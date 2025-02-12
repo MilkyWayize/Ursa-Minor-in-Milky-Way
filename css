@@ -1,0 +1,86 @@
+/* 基础样式 */
+body {
+    font-family: 'Comic Sans MS', cursive;
+    background: #f0e6d6;
+    margin: 0;
+}
+
+nav {
+    background: #8b4513;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.page {
+    padding: 5rem 2rem;
+    min-height: 100vh;
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+/* 照片墙 */
+.photo-wall {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin: 2rem;
+}
+
+.photo-wall img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.photo-wall img:hover {
+    transform: scale(1.05);
+}
+
+/* 日记样式 */
+.diary article {
+    background: white;
+    padding: 1rem;
+    margin: 1rem auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+/* 游戏样式 */
+#honey-game {
+    text-align: center;
+    padding: 2rem;
+}
+
+button {
+    background: #ffd700;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #ffb300;
+}
